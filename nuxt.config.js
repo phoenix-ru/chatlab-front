@@ -48,7 +48,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL: 'http://ec2-13-58-20-108.us-east-2.compute.amazonaws.com'
+    baseURL: 'http://ec2-18-222-111-186.us-east-2.compute.amazonaws.com'
   },
   /*
   ** Build configuration
