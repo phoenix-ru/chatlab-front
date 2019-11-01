@@ -57,6 +57,8 @@ export default {
 
   mounted() {
     this.$parent.$emit('page-changed', 'Chat ' + this.chatId)
+
+    setInterval(this.getMessages, 1000)
   },
 
   methods: {
@@ -67,6 +69,10 @@ export default {
         { text: this.userMessage, name: 'Marsel' }
       )
 
+      this.userMessage = undefined
+    },
+
+    async getMessages() {
       const res = await get(
         this.$axios,
         `/chats/${this.chatId}`
@@ -77,8 +83,6 @@ export default {
       }
 
       this.messages = res.data.messages
-
-      this.userMessage = undefined
     }
   }
 }
