@@ -1,6 +1,13 @@
-# Lab09
+# DS Lab 09 Report
 
 > Simple web chat for DS Lab
+
+This assignment was done by two students (Marsel Shayhin a.k.a. @phoenix_ru and Rishat Rizvanov a.k.a. @resheshus) cooperatively.
+
+
+Github (front-end): https://github.com/phoenix-ru/chatlab-front
+Github (back-end): https://github.com/reshreshus/chatlab
+
 
 ## Build Setup
 
